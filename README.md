@@ -4,7 +4,7 @@
 
 I work on the simulation side of powertrain engineering: 1D engine and vehicle models in GT-Suite, structural and fatigue analysis in Ansys, electric-drive and thermal models in Multisim and OpenModelica, and data-driven calibration with design of experiments and machine learning. This repository collects my postgraduate projects, written up as short engineering case studies with the key figures and results.
 
-> 🌐 **Portfolio website:** https://ronin4ortyse7en.github.io/ranjanpattnaik_portfolio/
+> 🌐 **Portfolio website:** https://ranjanpattnaik.github.io/ranjanpattnaik_portfolio/
 >
 > 📫 **Contact:** [LinkedIn](https://www.linkedin.com/in/YOUR-PROFILE) · [Email](mailto:YOUR-EMAIL) · CV on request
 
@@ -81,7 +81,7 @@ Each project folder has a case-study README with the problem, my approach, resul
 
 ### Website & editing
 
-- **Live site:** https://ronin4ortyse7en.github.io/ranjanpattnaik_portfolio/
+- **Live site:** https://ranjanpattnaik.github.io/ranjanpattnaik_portfolio/
 - `index.html` is the page layout. **All content (projects, experience, courses, education, contact) lives in [`content.js`](content.js)**, so adding work never means touching the layout.
 - Step-by-step instructions with copy-paste templates: **[HOW-TO-EDIT.md](HOW-TO-EDIT.md)**
 - Figures for both the website and the READMEs live in `projects/<folder>/images/`.
