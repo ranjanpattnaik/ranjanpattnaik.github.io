@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+# Keep full assessed reports and licensed simulation models out of the public repo
+*.gtm
+*.gdx
+*.docx
+reports/
+artifact.html
