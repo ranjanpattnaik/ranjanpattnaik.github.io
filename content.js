@@ -14,7 +14,7 @@ window.PORTFOLIO = {
     email: "",                       // e.g. "ranjan@example.com"  (leave "" to hide)
     linkedin: "",                    // e.g. "https://www.linkedin.com/in/your-profile"
     github: "ranjanpattnaik",         // GitHub username
-    repo: "ranjanpattnaik_portfolio",  // repository holding this site
+    repo: "ranjanpattnaik.github.io",  // repository holding this site
     cv: ""                           // e.g. "assets/Ranjan-Pattnaik-CV.pdf" after uploading the PDF there
   },
 
