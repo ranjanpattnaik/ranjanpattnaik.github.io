@@ -11,8 +11,8 @@ window.PORTFOLIO = {
 
   /* ---------- 1. Contact details ---------- */
   config: {
-    email: "",                       // e.g. "ranjan@example.com"  (leave "" to hide)
-    linkedin: "",                    // e.g. "https://www.linkedin.com/in/your-profile"
+    email: "ranjanpattnaik.22@gmail.com",   // leave "" to hide
+    linkedin: "https://www.linkedin.com/in/ranjanpattnaik/",
     github: "ranjanpattnaik",         // GitHub username
     repo: "ranjanpattnaik.github.io",  // repository holding this site
     cv: ""                           // e.g. "assets/Ranjan-Pattnaik-CV.pdf" after uploading the PDF there
@@ -46,6 +46,71 @@ window.PORTFOLIO = {
      },
   */
   experience: [
+    {
+      when: "Apr 2026 – present",
+      role: "Powertrain Systems & Trackside Engineer",
+      org: "NT219 Motorsports",
+      location: "Northampton, UK",
+      summary: "Trackside powertrain diagnostics, data logging and calibration during live track testing.",
+      points: [
+        "Improved PU session reliability by 15% through powertrain diagnostics and real-time data logging, feeding directly into xRT model correlation during live track testing.",
+        "Accelerated real-time engineering decisions by 10% by monitoring critical telemetry, enabling rapid evaluation of performance ideas.",
+        "Enhanced PU performance by 12% via iterative calibration, sensor validation and MATLAB/MoTeC fault diagnosis."
+      ],
+      tags: ["MoTeC i2", "MATLAB", "Telemetry", "Calibration"]
+    },
+    {
+      when: "Jul 2025 – Dec 2025",
+      role: "Simulation & Calibration Intern",
+      org: "Flowthermolab",
+      location: "Nottingham, UK",
+      summary: "Control and calibration modules for hybrid thermal systems, validated on testbeds and vehicles.",
+      points: [
+        "Increased calibration accuracy by 10% in hybrid thermal systems by developing and validating Simulink control/calibration modules on testbeds and vehicles.",
+        "Refined calibration precision by 15% by correlating simulation results with real engine data.",
+        "Documented 5+ refined control strategies for a three-engineer team, resolving key thermal-management challenges."
+      ],
+      tags: ["Simulink", "MATLAB", "Hybrid thermal", "Calibration"]
+    },
+    {
+      when: "Jan 2024 – Dec 2024",
+      role: "Calibration & Data Engineer",
+      org: "Oxford Brookes Racing Ltd.",
+      location: "Oxford, UK",
+      summary: "Powertrain calibration and data analysis for the university race team.",
+      points: [
+        "Improved engine response by 15% by analysing 500+ MoTeC i2 datasets in MATLAB and optimising powertrain calibration strategies.",
+        "Resolved 90% of sensor issues through live trackside calibration updates during events.",
+        "Cut calibration workflow time by 30% by automating post-run data processing in MATLAB/Python, standardising reports across 10+ competition events."
+      ],
+      tags: ["MoTeC i2", "MATLAB", "Python", "Trackside"]
+    },
+    {
+      when: "Jan 2023 – Jun 2023",
+      role: "Combustion Simulation Intern",
+      org: "Simulation Labs",
+      location: "Pune, India",
+      summary: "GT-Power combustion modelling to guide calibration decisions.",
+      points: [
+        "Reduced engine issues by 20% using GT-Power models of transient knock and spark response to refine calibration assumptions.",
+        "Delivered CA50 and heat-release trend analyses from 15 engine test campaigns, guiding calibration decisions and improving engine performance by 10%.",
+        "Reduced physical testing by 5% by validating calibration strategies in GT-Power."
+      ],
+      tags: ["GT-Power", "Knock", "CA50", "Heat release"]
+    },
+    {
+      when: "Sep 2020 – Aug 2021",
+      role: "Calibration Engineer",
+      org: "AM Customs",
+      location: "Mumbai, India",
+      summary: "ECU calibration and dyno tuning of performance motorcycles.",
+      points: [
+        "Maximised engine reliability across 50+ motorcycles through ECU diagnostics, fast issue resolution and precise WinOLS calibrations.",
+        "Improved throttle response by 15% and fuel efficiency through dyno calibration of ignition and fuel maps on 20+ motorcycles.",
+        "Delivered a 10% gain in drivability and thermal stability with structured test plans and data logging."
+      ],
+      tags: ["WinOLS", "Dyno", "ECU calibration"]
+    }
   ],
 
   /* ---------- 4. Courses & certifications (newest first) ----------
@@ -54,6 +119,12 @@ window.PORTFOLIO = {
        summary: "What you learned or built.", link: "https://… (certificate, optional)" },
   */
   courses: [
+    { when: "Jun 2025", title: "Thermal Control Integration for Hybrid Vehicles", provider: "Gannet Engineering", summary: "", link: "" },
+    { when: "Jan 2025", title: "Certified Reliability Expert: Engine Electronics Management System", provider: "Automotive Research Association of India (ARAI)", summary: "", link: "" },
+    { when: "Jan 2024", title: "CFD Mentorship: Hydrogen Combustion and Turbomachinery Research", provider: "Flowthermolab", summary: "", link: "" },
+    { when: "Jun 2023", title: "Powertrain Modelling and Systems Simulation | Systems Engineering Methods", provider: "Skill-Lync", summary: "", link: "" },
+    { when: "Dec 2022", title: "Engine Calibration, Dynamometer Testing & Model-Based Development", provider: "Reynlab", summary: "", link: "" },
+    { when: "Nov 2022", title: "Race Engineering, Trackside Operations & Data Analysis", provider: "Motorsport Industry Association", summary: "", link: "" }
   ],
 
   /* ---------- 5. Education (newest first) ---------- */
@@ -61,7 +132,8 @@ window.PORTFOLIO = {
     { when: "June 2025", title: "MSc dissertation", summary: "Development and validation of a machine-learning-based combustion control and knock prediction system for an ethanol-fuelled 2026 F1 power unit." },
     { when: "Sep – Dec 2024", title: "Thermal & electric modules", summary: "Advanced combustion analysis, electric powertrain design, electric machine thermal modelling." },
     { when: "Jan – May 2024", title: "Racing engine systems modules", summary: "Intake system modelling, turbocharger system integration, advanced powertrain engineering, advanced strength of components." },
-    { when: "2024 – 2025", title: "MSc Racing Engine Systems", summary: "Oxford Brookes University, School of Engineering, Computing and Mathematics." }
+    { when: "Jan 2024 – May 2025", title: "MSc Racing Engine Systems", summary: "Oxford Brookes University, School of Engineering, Computing and Mathematics." },
+    { when: "Oct 2021 – Sep 2022", title: "MSc Automotive Engineering & Electric Propulsion", summary: "University of Bath. Turbocharging and engine boosting, vehicle dynamics and aerodynamics, engine and powertrain technologies, engineering systems simulation." }
   ],
 
   /* ---------- 6. Projects / case studies ----------

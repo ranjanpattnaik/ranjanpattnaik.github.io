@@ -1,12 +1,12 @@
 # Ranjan Pattnaik — Powertrain & Motorsport Engineering Portfolio
 
-**MSc Racing Engine Systems · Oxford Brookes University (2024–2025)**
+**Powertrain Systems & Trackside Engineer, NT219 Motorsports · MSc Racing Engine Systems (Oxford Brookes) · MSc Automotive Engineering & Electric Propulsion (Bath)**
 
 I work on the simulation side of powertrain engineering: 1D engine and vehicle models in GT-Suite, structural and fatigue analysis in Ansys, electric-drive and thermal models in Multisim and OpenModelica, and data-driven calibration with design of experiments and machine learning. This repository collects my postgraduate projects, written up as short engineering case studies with the key figures and results.
 
 > 🌐 **Portfolio website:** https://ranjanpattnaik.github.io
 >
-> 📫 **Contact:** [LinkedIn](https://www.linkedin.com/in/YOUR-PROFILE) · [Email](mailto:YOUR-EMAIL) · CV on request
+> 📫 **Contact:** [LinkedIn](https://www.linkedin.com/in/ranjanpattnaik/) · ranjanpattnaik.22@gmail.com · CV on request
 
 ---
 
